@@ -11,6 +11,8 @@ package ffroman
 		public function StageFitRect() {
 		}
 		
+		
+		
 		public static function apply(stage:*,w:int,h:int):Rectangle {
 
 			if(getQualifiedClassName(stage).split("::")[1]=="Stage"){
